@@ -1,0 +1,11 @@
+version: '3'
+services:
+
+  jupyter:
+    image: prophet_hayashi
+    container_name: jupyter_prophet_hayashi
+    ports:
+      - 8888:8888
+    volumes:
+      - ${PWD}/work/:/home/jovyan/work
+    restart: always
