@@ -1,6 +1,5 @@
 version: '3'
 services:
-
   jupyter:
     image: prophet_hayashi
     container_name: jupyter_prophet_hayashi

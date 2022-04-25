@@ -1,0 +1,8 @@
+# ライブラリのインストール
+pip install plotly==4.11.0
+
+# jupyter labでplotlyを表示するためのコマンド
+sudo apt-get install nodejs npm
+conda update jupyter lab
+jupyter labextension install jupyterlab-plotly
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager plotlywidget

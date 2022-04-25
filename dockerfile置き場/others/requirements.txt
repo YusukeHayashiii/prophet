@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+tqdm
+xlrd
+openpyxl
+pystan==2.19.1.1
+prophet
+ipywidgets
+plotly
